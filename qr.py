@@ -112,7 +112,7 @@ def data2str(data):
     msg = ''
     for d in data:
         #msg += octet2str(d)
-        msg += int2binarystr(d)
+        msg += int2binarystr(d)[::-1]
     return msg    
         
 def encode_format(mode, masque):
