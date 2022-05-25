@@ -28,6 +28,8 @@ Comment ça fonctionne:
 	dimensions = (21,21)
 	img = Image.new("RGB",dimensions , couleur)
 	draw = ImageDraw.Draw(img)   (ces 4 lignes ensemble sur une autre cellule aussi)
+    
+    "MTgood.Final(img)" (sur une nouvelle cellule)
 
 - Et on va vous redemander d'écrire votre message
 
